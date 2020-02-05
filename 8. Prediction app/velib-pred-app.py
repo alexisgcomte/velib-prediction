@@ -335,7 +335,7 @@ prediction
 
 
 #print("Nous prévoyons ",prediction," dock(s) Velib disponible(s) à la station Madeleine à ",heureprediction )
-val= "Nous prevoyons " + str(prediction) +" dock(s) Velib disponible(s) à la Station Madeleine à "+ heureprediction
+val= "Nous prévoyons " + str(prediction) +" dock(s) Velib' disponible(s) à la station Madeleine à "+ heureprediction
 from tkinter import * 
 fenetre = Tk()
 l = LabelFrame(fenetre, text="Prédictions", padx=40, pady=40,font="Arial 20")
